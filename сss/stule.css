@@ -571,11 +571,17 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 }
 
-.function-text:hover{
-color: #fff;
-font-size: 18px;
+.comentar:hover {
 line-height: calc(28 / 18);
 }
+
+
+
+
+
+
+
+????????????
 
 
   .clients{
