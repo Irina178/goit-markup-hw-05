@@ -609,5 +609,26 @@ color: #2196F3;
 
 
 
-
+.communication {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.main-mail, .main-tel {
+    text-decoration: none;
+    color: var(--colorlinkHeader);
+    transition: 0.3s;
+    font-family: var(--ffMedium);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+}
+.communication .icon {
+    margin-right: 10px;
+    fill: #757575;
+    transition: 0.3s;
+}
 
