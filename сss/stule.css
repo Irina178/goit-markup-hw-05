@@ -201,16 +201,25 @@ padding-bottom: 9px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.icon{
-width: 270px;
-height: 120px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
-display: flex;
-justify-content: center;
+.communication-icon{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    /* padding-left: 10px; */
+}
+.communication-icon:hover{
+    color: #2196F3;
+}
 
+.icon {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icon-svg{
 width: 270px;
@@ -561,6 +570,9 @@ display: block;
     transform: translateY(100%);
     transition: 0.3s;
 }
+.border-links-item:hover .function-text {
+ transform: translateY(0%);   
+}
 .comentar{
     font-family: Roboto;
 font-style: normal;
@@ -576,12 +588,6 @@ line-height: calc(28 / 18);
 }
 
 
-
-
-
-
-
-????????????
 
 
   .clients{
@@ -617,15 +623,31 @@ color: #2196F3;
 }
 .main-mail, .main-tel {
     text-decoration: none;
-    color: var(--colorlinkHeader);
     transition: 0.3s;
-    font-family: var(--ffMedium);
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    padding-left: 30px;
 }
+.main-mail:hover, 
+.main-tel:hover{
+    color: #2196F3;
+}
+
+
+
+
+
+
 .communication .icon {
     margin-right: 10px;
     fill: #757575;
