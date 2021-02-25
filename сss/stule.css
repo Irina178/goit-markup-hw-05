@@ -88,6 +88,9 @@ color: #2196F3;
     fill: #757575;
     transition: 0.3s;
 }
+.communication:hover .communication-icon {
+    fill: #2196F3;
+}
 
 .contact{
 display: flex;
@@ -396,7 +399,7 @@ border-radius: 4px;
 }
 
 .icon-svg:hover .logo-svg{
-border-color:  #2196F3;
+fill:  #2196F3;
 
 }
 .icon-svg:hover {
@@ -406,7 +409,7 @@ border-color:  #2196F3;
 
 
 .logo-svg{
-    fill: #2196F3;
+  fill: #AFB1B8;
     justify-content: center;
 }
 .logo-svg:hover:{
