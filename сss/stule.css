@@ -111,7 +111,7 @@ margin-right: 93px;
     transition: 0.3s;
 }
 
-.communication-icon:hover,
+/* .communication-icon:hover,
 .communication-icon:focus{
     fill: #2196F3;
 }
@@ -120,7 +120,7 @@ margin-right: 93px;
 .communication li:hover a .communication-icon{
     color: #2196F3;
     fill: #2196F3;
-}
+} */
 .contact{
 display: flex;
 }
@@ -134,12 +134,20 @@ letter-spacing: 0.02em;
 color: #757575;
 margin-right: 30px;
 }
-.tel:hover,
+/* .tel:hover,
 .tel:focus,
 .imel{
 color: #2196F3;
-}
+} */
 
+
+
+.ul.communication li:hover a {
+    color: red;
+}
+.ul.communication li:hover a .communication-icon {
+    fill: red;
+}
 
 
 .main-mail, .main-tel {
@@ -159,10 +167,10 @@ color: #2196F3;
     color: #757575;
     padding-left: 30px;
 }
-.main-mail:hover, 
+/* .main-mail:hover, 
 .main-tel:hover{
     color: #2196F3;
-}
+} */
 
 
 
