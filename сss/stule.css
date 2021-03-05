@@ -91,18 +91,19 @@ margin-right: 93px;
     background: #2196F3;
     border-radius: 2px;
 }
-.communication-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-left: 10px; */
-}
+
 
 .communication {
     display: flex;
     align-items: center;
     justify-content: space-between;
   
+}
+.communication-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10px; */
 }
 .communication .communication-icon {
     margin-right: 10px;
@@ -116,27 +117,10 @@ margin-right: 93px;
 }
 .communication-icon:focus
 
-.communication:hover,
-.communication-icon{
+.communication li:hover a .communication-icon{
+    color: #2196F3;
     fill: #2196F3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact{
 display: flex;
 }
@@ -464,10 +448,10 @@ border-color:  #2196F3;
 fill: #AFB1B8;
 justify-content: center;
 }
-.logo-svg:hover,
+/* .logo-svg:hover,
 .logo-svg:focus{
 color: #2196F3;
-}
+} */
 
 
 
