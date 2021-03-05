@@ -81,100 +81,57 @@ margin-right: 93px;
 }
 
 .navigation-list-link::after {
-    content: "";
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    opacity: 0;
-    background: #2196F3;
-    border-radius: 2px;
+content: "";
+position: absolute;
+bottom: -30px;
+left: 0;
+width: 100%;
+height: 4px;
+opacity: 0;
+background: #2196F3;
+border-radius: 2px;
 }
 
-
-.communication {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  
-}
-.communication-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-left: 10px; */
-}
-.communication .communication-icon {
-    margin-right: 10px;
-    fill: #757575;
-    transition: 0.3s;
-}
-
-/* .communication-icon:hover,
-.communication-icon:focus{
-    fill: #2196F3;
-}
-.communication-icon:focus
-
-.communication li:hover a .communication-icon{
-    color: #2196F3;
-    fill: #2196F3;
-} */
-.contact{
+/* ховер тел почта иконки */
+.communication{
 display: flex;
+align-items: center;
+justify-content: space-between;
 }
-.tel{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.02em;
-color: #757575;
-margin-right: 30px;
-}
-/* .tel:hover,
-.tel:focus,
-.imel{
-color: #2196F3;
-} */
-
-
-
-.ul.communication li:hover a {
-    color: red;
-}
-.ul.communication li:hover a .communication-icon {
-    fill: red;
-}
-
-
 .main-mail, .main-tel {
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
-    font-family: Roboto;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
+text-decoration: none;
+color: #757575;
+transition: 0.3s;
+font-family:  Roboto;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+display: flex;
+align-items: center;
+font-weight: 500;
+}
+.communication .communication-icon{
+margin-right: 10px;
+fill: #757575;
+transition: 0.3s;
+}
+.communication li:nth-child(2){
     padding-left: 30px;
 }
-/* .main-mail:hover, 
-.main-tel:hover{
-    color: #2196F3;
-} */
+ul.communication li:hover a {
+    color:#2196F3;
+}
+ul.communication li:hover a .communication-icon {
+    fill: #2196F3;
+}
 
 
-
-
+ul.communication li a:focus  {
+    color:#2196F3;
+}
+ul.communication li a:focus  .communication-icon {
+    fill: #2196F3;
+}
 
 /* основная часть главная */
 /* <!---Основная информация-->
