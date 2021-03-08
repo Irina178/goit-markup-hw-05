@@ -368,6 +368,9 @@ background-color: #2196F3;
 .social-networks:hover .social-networks-svg{
     fill: #FFFFFF;
 }
+.social-networks:focus .social-networks-svg{
+    fill: #FFFFFF;
+}
 .networks:not(:first-child){
  margin-left: 10px;
 }
@@ -410,6 +413,7 @@ width: 170px;
     justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    box-sizing: border-box;
 
 
 }
@@ -423,7 +427,7 @@ display: flex;
 justify-content: center;
 align-items: center;      
 /* border: 1px solid #AFB1B8; */
-box-sizing: border-box;
+/* box-sizing: border-box; */
 /* border-radius: 4px; */
 margin: 30px 15px 0px;
 }
