@@ -414,8 +414,6 @@ width: 170px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     box-sizing: border-box;
-
-
 }
 
 .clients-icon li{
@@ -432,6 +430,7 @@ align-items: center;
 margin: 30px 15px 0px;
 }
 
+
 .icon-svg:hover .logo-svg
 {
 fill:  #2196F3;
@@ -446,13 +445,15 @@ ul.clients-icon li:hover a .logo-svg{
 }
 
 /* фокус ПОСТОЯННЫЕ КЛИЕНТЫ */
-.clients-icon-logo :focus a {
+/* .clients-icon-logo :focus a {
     border-color: #2196F3;
- }
+ } */
  ul.clients-icon li a:focus  .logo-svg{
      fill: #2196F3;
  }
-
+ .clients-icon-logo a:focus  {
+    border-color: #2196F3;
+ }
 
 
 
