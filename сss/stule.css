@@ -737,7 +737,59 @@ border-radius: 4px;
 }
  
 
+/* Подпишитесь на рассылку */
+.subscription-form{
+    width: 670px;
+}
+.subscription-email{ 
+width: 358px;
+height: 50px;
+left: 815px;
+top: 2785px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: #2F303A;
+}
+.icon-subscription-button{
+   margin-left: 10px;
+}
 
+.subscription-form input {
+   width: 358px;
+   height: 50px;
+   box-sizing: border-box;
+   padding-left: 16px;
+   font-size: 16px;
+   border-radius: 4px;
+   margin-right: 12px;
+}
+.subscription-button{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+background-color: #2196F3;
+color: #FFFFFF;
+letter-spacing: 0.06em;
+border: none;
+border-radius: 4px;
+width: 200px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+margin-top: -50px;
+margin-right: 0;
+margin-bottom: 0px;
+margin-left: 368px;
+}
+.social-networks:hover
+.social-networks-svg-footer{
+fill: #FFFFFF;
+}
 
 
 
